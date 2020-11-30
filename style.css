@@ -101,3 +101,34 @@ header {
 .jumbotron-right img {
     width: 100%;
 }
+
+.tab-stats {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0px;
+}
+
+.single-stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 50px;
+    border-right: 1px solid #84e0d2;
+}
+
+.border-left {
+    border-left: 1px solid #84e0d2;
+}
+.number-data {
+    font-size: 3.0em;
+    font-weight: bolder;
+    color: #20ac97;
+    margin-bottom: 4px;
+}
+
+.object-data {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
