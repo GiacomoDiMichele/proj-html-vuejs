@@ -367,3 +367,50 @@ position: relative;
     opacity: 0.3;
     margin: 0px 35px;
 }
+
+.real-stories {
+    float: left;
+    height: 698px;
+    width: 50%;
+    background-color: #F3F3FA;
+    background-image: url('images/background-pattern-wavify.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 67px 210px;
+    text-align: center;
+}
+
+.real-stories h4 {
+    text-transform: uppercase;
+    color: #20ac97;
+}
+
+.real-stories p {
+    font-size: 1.5em;
+    margin: 70px 0px;
+}
+
+.real-stories img {
+    border-radius: 100%;
+    width: 90px;
+}
+
+.real-stories h5 {
+    font-size: 1.1em;
+    margin: 20px 0px;
+}
+
+.real-stories span {
+    color: grey;
+}
+
+.gallery-photos {
+    float: left;
+    width: 50%;
+}
+
+.gallery-photos img {
+    width: 100%;
+}
