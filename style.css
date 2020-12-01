@@ -8,12 +8,16 @@ li {
     list-style-type: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 header {
     background-color: white;
 }
 
 .container {
-    width: 65%;
+    width: 1120px;
     margin: auto;
     height: 100%;
 }
@@ -243,13 +247,13 @@ position: relative;
 }
 
 .course-price {
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-weight: bolder;
 }
 
 .text-course p {
     margin: 10px 0px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bolder;
 }
 
@@ -259,7 +263,7 @@ position: relative;
 
 .info-course span {
     color: grey;
-    margin: 0px 8px;
+    margin-right: 12px;
 }
 
 .button-section button {
@@ -270,4 +274,41 @@ position: relative;
     background-color: #20ac97;
     border: 0;
     border-radius: 5px;
+}
+
+.free-ebook {
+    float: left;
+    width: 40%;
+    min-height: 600px;
+}
+
+.paid-books {
+    float: left;
+    width: 60%;
+    min-height: 600px;
+}
+
+.free-ebook button {
+    font-size: 0.9em;
+    color: white;
+    padding: 15px 45px;
+    margin: 50px 0px;
+    background-color: #20ac97;
+    border: 0;
+    border-radius: 5px;
+}
+
+.tab-book {
+    float: left;
+    margin: 0px 20px;
+    width: calc(50% - 40px);
+}
+
+.tab-book img {
+    width: 100%;
+}
+
+.tab-book span {
+    display: flex;
+    flex-direction: column;
 }
