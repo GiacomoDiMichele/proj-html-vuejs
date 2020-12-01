@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 li {
@@ -279,13 +285,41 @@ position: relative;
 .free-ebook {
     float: left;
     width: 40%;
-    min-height: 600px;
+    min-height: 500px;
+}
+
+.list-free-ebook {
+    margin-top: 40px;
+}
+
+.free-ebook h3 {
+    text-transform: uppercase;
+    font-size: 1.0em;
+    color: grey;
+}
+
+.free-ebook h4 {
+    font-size: 2.7em;
+    margin-top: 20px;
+}
+
+.free-ebook li {
+    margin: 10px 0px;
+}
+
+.free-ebook span {
+    color: grey;
+}
+
+.free-ebook i {
+    color: #20ac97;
+    margin-right: 15px;
 }
 
 .paid-books {
     float: left;
     width: 60%;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .free-ebook button {
@@ -306,9 +340,30 @@ position: relative;
 
 .tab-book img {
     width: 100%;
+    margin-bottom: 25px;
 }
 
-.tab-book span {
+.tab-book a {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.middle-margin {
+    margin-bottom: 10px;
+}
+
+.list-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 100px 0px;
+}
+
+.list-clients img {
+    filter: grayscale(100%);
+    opacity: 0.3;
+    margin: 0px 35px;
 }
