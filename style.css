@@ -209,3 +209,65 @@ position: relative;
     font-size: 1.1em;
     text-transform: uppercase;
 }
+
+.online-courses {
+    margin: 140px 0px 40px 0px;
+    text-align: center;
+}
+
+.title-section h3 {
+    text-transform: uppercase;
+    color: grey;
+}
+
+.title-section h2 {
+    font-size: 3.4em;
+    margin: 25px 0px 45px 0px;
+}
+
+.single-course {
+    text-align: left;
+    margin: 20px 10px;
+    width: calc(100% / 3 - 20px);
+    min-height: 350px;
+    float: left;
+    border: 1px solid white;
+}
+
+.single-course img {
+    width: 100%;
+}
+
+.text-course {
+    margin: 10px 25px;
+}
+
+.course-price {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.text-course p {
+    margin: 10px 0px;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.info-course {
+    margin: 25px 25px 5px 25px;
+}
+
+.info-course span {
+    color: grey;
+    margin: 0px 8px;
+}
+
+.button-section button {
+    font-size: 0.9em;
+    color: white;
+    padding: 15px 60px;
+    margin: 50px 0px;
+    background-color: #20ac97;
+    border: 0;
+    border-radius: 5px;
+}
