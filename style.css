@@ -19,7 +19,8 @@ button {
 }
 
 header {
-    background-color: white;
+    background-color: #F3F3FA;
+    background-image: url('images/background-pattern-wavify.png');
 }
 
 .container {
@@ -111,12 +112,21 @@ header {
 
 .description button {
     margin-top: 30px;
+    padding: 20px 80px;
+    color: white;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 5px;
+    background-color: #20ac97;
+}
+
+.description i {
+    margin-left: 8px;
 }
 
 .jumbotron-right {
     width: 50%;
     float: left;
-    background-color: white;
     height: 100%;
 }
 
