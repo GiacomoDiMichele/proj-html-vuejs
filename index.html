@@ -22,8 +22,8 @@
                     <div class="header-center">
                         <div class="headerbar-nav">
                             <ul class="dropdown-menu">
-                                <li>
-                                    <span class="section-menu">Home<i class="fas fa-chevron-down"></i></span>
+                                <li v-for="element in array_dropdown">
+                                    <span class="section-menu">{{ element }}<i class="fas fa-chevron-down"></i></span>
                                 </li>
                             </ul>
                         </div>
