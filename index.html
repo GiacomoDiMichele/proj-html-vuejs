@@ -6,15 +6,17 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <title>Motivation</title>
     </head>
     <body>
+    <div id="root">
         <header>
             <div class="header-menu">
                 <div class="container">
                     <div class="header-left">
                         <div class="header-logo">
-                            <img src="images/dark-logo.png" alt="">
+                            <img :src="'images/' + header_logo.name + '.png'" alt="">
                         </div>
                     </div>
                     <div class="header-center">
@@ -327,7 +329,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
         <footer>
             <div class="container">
@@ -342,5 +344,7 @@
                 </div>
             </div>
         </footer>
+    </div>
     </body>
+    <script src="main.js" charset="utf-8"></script>
 </html>
