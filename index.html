@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <title>Motivation</title>
     </head>
@@ -23,7 +25,7 @@
                         <div class="headerbar-nav">
                             <ul class="dropdown-menu">
                                 <li v-for="element in array_dropdown">
-                                    <span class="section-menu">{{ element }}<i class="fas fa-chevron-down"></i></span>
+                                    <a href="#" class="section-menu">{{ element }}<i class="fas fa-chevron-down"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -31,7 +33,10 @@
                     <div class="header-right">
                         <div class="header-social-links">
                             <ul>
-                                <li><i class="fab fa-twitter"></i></li>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -332,15 +337,40 @@
             </section>
         </main>
         <footer>
-            <div class="container">
+            <div class="container links-informations">
                 <div class="contacts">
-
+                    <ul> {{ ul_address }}
+                        <li v-for="element in li_address">{{ element }}</li>
+                    </ul>
+                    <ul class="icons-footer">
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-linkedin"></i></li>
+                    </ul>
                 </div>
                 <div class="addressing">
-
+                    <ul class="explore">
+                        <h5>Explore</h5>
+                        <li v-for="element in links_explore">
+                            {{ element }}
+                        </li>
+                    </ul>
+                    <ul class="general">
+                        <h5></h5>
+                        <li v-for="element in links_general">
+                            {{ element }}
+                        </li>
+                    </ul>
+                    <ul class="informations">
+                        <h5>Information</h5>
+                        <li v-for="element in links_information">
+                            {{ element }}
+                        </li>
+                    </ul>
                 </div>
                 <div class="copyright">
-
+                    <span>{{ info_copyright }}</span>
                 </div>
             </div>
         </footer>
