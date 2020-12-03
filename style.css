@@ -69,6 +69,10 @@ header {
     margin-left: 5px;
 }
 
+.section-menu a, .section-menu i {
+    color: #141423;
+}
+
 .header-right {
     float: left;
     width: 20%;
@@ -76,6 +80,16 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.header-social-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header-social-links i {
+    font-size: 1.1em;
+    color: #141423;
 }
 
 .header-logo img {
@@ -103,11 +117,20 @@ header {
 .description h5 {
     text-transform: uppercase;
     font-size: 0.9em;
+    font-weight: 500;
+    color: #333;
 }
 
 .description h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3.4em;
+    font-weight: 300;
+    color: #333;
     margin: 30px 0px;
+}
+
+.description p {
+    color: #6b6c6c;
 }
 
 .description button {
@@ -118,6 +141,11 @@ header {
     border: 0;
     border-radius: 5px;
     background-color: #20ac97;
+}
+
+button:hover {
+    background-color: #3F3A64;
+    transition: linear 0.5s;
 }
 
 .description i {
@@ -264,6 +292,13 @@ position: relative;
     min-height: 350px;
     float: left;
     border: 1px solid white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.single-course:hover {
+    box-shadow: 0px 10px 10px 10px #f4e6e6;
+    transition: linear 0.5s;
 }
 
 .single-course img {
@@ -500,5 +535,81 @@ position: relative;
 footer {
     background-color: #141423;
     width: 100%;
-    height: 400px;
+    color: white;
+    margin-top: 130px;
+}
+
+.contacts {
+    float: left;
+    height: 200px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.contacts ul {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.contacts li {
+    color: grey;
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-top: 15px;
+}
+
+.icons-footer {
+    margin-top: 20px;
+}
+
+.icons-footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icons-footer i {
+    font-size: 1.8em;
+}
+
+.addressing {
+    display: flex;
+    float: left;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.addressing h5 {
+    font-size: 1.1em;
+}
+
+.addressing ul {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.general {
+    margin-top: 20px;
+}
+
+.addressing li {
+    color: grey;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.copyright {
+    color: grey;
+    margin-top: 110px;
+    margin-bottom: 65px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright span {
+    font-size: 0.9em;
+    font-weight: 500;
 }
